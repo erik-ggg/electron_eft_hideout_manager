@@ -1,0 +1,370 @@
+/* Modals.scss */
+@use "sass:color";
+@use '../styles/variables' as *;
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.85);
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    animation: fadeIn 0.2s ease-out;
+}
+
+.modal {
+    background-color: $panel-bg;
+    padding: 32px;
+    border-radius: 2px;
+    width: 650px;
+    max-width: 95vw;
+    max-height: 90vh; // Constrain height
+    display: flex; // Enable flex layout
+    flex-direction: column; // Stack children
+    border: 1px solid $border-color;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.7);
+    animation: slideUp 0.3s ease-out;
+    position: relative;
+
+    &::after {
+        content: '';
+        position: absolute;
+        top: -1px;
+        right: -1px;
+        width: 20px;
+        height: 20px;
+        border-top: 2px solid $accent-color;
+        border-right: 2px solid $accent-color;
+        pointer-events: none;
+    }
+
+    &::before {
+        content: '';
+        position: absolute;
+        bottom: -1px;
+        left: -1px;
+        width: 20px;
+        height: 20px;
+        border-bottom: 2px solid $accent-color;
+        border-left: 2px solid $accent-color;
+        pointer-events: none;
+    }
+
+    // Ensure form takes available space and handles overflow
+    form {
+        display: flex;
+        flex-direction: column;
+        overflow: hidden; // Prevent form itself from overflowing
+        flex: 1;
+    }
+}
+
+.modal h2 {
+    margin: 0 0 24px 0;
+    font-size: 1.5rem;
+    color: $text-primary;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 1px solid $border-color;
+    padding-bottom: 12px;
+    flex-shrink: 0; // Prevent header from shrinking
+}
+
+.form-group {
+    margin-bottom: 20px;
+    flex-shrink: 0; // Prevent standard inputs from shrinking
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: $text-secondary;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 12px;
+    background-color: $input-bg;
+    border: 1px solid $border-color;
+    border-radius: 2px;
+    color: $text-primary;
+    font-size: 0.95rem;
+    transition: border-color 0.2s;
+    font-family: inherit;
+    height: 45px; // Fixed height for alignment
+
+    &:focus {
+        outline: none;
+        border-color: $accent-color;
+        box-shadow: 0 0 0 2px rgba($accent-color, 0.1);
+    }
+}
+
+/* Materials Section in Modal */
+.materials-section {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 24px;
+    border-radius: 2px;
+    border: 1px solid $border-color;
+    margin-bottom: 24px;
+    flex: 1; // Take up remaining vertical space
+    overflow-y: auto; // Enable scrolling within this section
+    min-height: 0; // Important for nested flex scrolling
+    display: flex;
+    flex-direction: column;
+}
+
+.materials-section h3 {
+    margin: 0 0 20px 0;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    color: $text-secondary;
+    letter-spacing: 1px;
+    font-weight: 700;
+    flex-shrink: 0;
+}
+
+/* Fixed Layout for Material Inputs */
+.material-input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 24px;
+    flex-shrink: 0; // Keep inputs visible, don't shrink them
+
+    .input-row {
+        display: flex;
+        gap: 16px;
+        align-items: flex-end;
+    }
+
+    .flex-grow {
+        flex: 1;
+    }
+
+    .category-group {
+        width: 140px;
+    }
+
+    .qty-group {
+        width: 80px;
+
+        input {
+            text-align: center;
+            padding-left: 4px;
+            padding-right: 4px;
+        }
+    }
+
+    .action-row {
+        justify-content: flex-end;
+    }
+
+    .add-btn {
+        height: 45px;
+        padding: 0 24px;
+        margin-bottom: 0; // Remove margin to align with input
+        background-color: $accent-color;
+        color: #000;
+        border: 1px solid $accent-color;
+        font-weight: 700;
+        text-transform: uppercase;
+        border-radius: 2px;
+        cursor: pointer;
+        transition: all 0.2s;
+
+        &:hover {
+            background-color: color.adjust($accent-color, $lightness: 5%);
+            box-shadow: 0 0 15px rgba($accent-color, 0.4);
+        }
+
+        &:disabled {
+            background-color: rgba($accent-color, 0.2);
+            border-color: transparent;
+            color: rgba(255, 255, 255, 0.3);
+            cursor: not-allowed;
+            box-shadow: none;
+            pointer-events: none;
+        }
+    }
+
+    .form-group {
+        margin-bottom: 0;
+    }
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: $text-secondary;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 8px 0;
+
+    &::before,
+    &::after {
+        content: '';
+        flex: 1;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    span {
+        padding: 0 12px;
+    }
+}
+
+.materials-list {
+    // Remove fixed max-height as the parent section now scrolls
+    overflow-y: visible;
+    background-color: $input-bg;
+    border: 1px solid $border-color;
+    border-radius: 2px;
+    flex: 1; // Fill remaining space in materials-section if needed
+}
+
+.material-list-item {
+    display: grid;
+    grid-template-columns: 1fr 80px 40px; // Name | Qty | Delete
+    align-items: center;
+    padding: 12px 16px;
+    border-bottom: 1px solid $border-color;
+    transition: background-color 0.2s;
+    gap: 16px;
+
+    &:last-child {
+        border-bottom: none;
+    }
+
+    &:hover {
+        background-color: rgba(255, 255, 255, 0.05);
+    }
+}
+
+.material-list-item span {
+    font-size: 0.95rem;
+    color: $text-primary;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.material-list-item .qty {
+    color: $accent-color;
+    font-weight: 700;
+    font-family: monospace;
+    font-size: 1.1rem;
+    text-align: center; // Center align the quantity
+}
+
+.modal-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+    margin-top: auto; // Push to bottom
+    padding-top: 20px;
+    border-top: 1px solid $border-color;
+    flex-shrink: 0; // Always visible
+    background-color: $panel-bg; // Cover content behind if necessary
+
+    button {
+        padding: 12px 24px;
+        font-size: 1rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        border-radius: 2px;
+        cursor: pointer;
+        transition: all 0.2s;
+        border: 1px solid transparent;
+        min-width: 120px;
+
+        &.btn-secondary {
+            background-color: transparent;
+            border: 1px solid $text-secondary;
+            color: $text-secondary;
+
+            &:hover {
+                border-color: $text-primary;
+                color: $text-primary;
+                background-color: rgba(255, 255, 255, 0.05);
+            }
+        }
+
+        &[type="submit"] {
+            background-color: $accent-color;
+            color: #000;
+            border: 1px solid $accent-color;
+
+            &:hover {
+                background-color: color.adjust($accent-color, $lightness: 5%);
+                box-shadow: 0 0 15px rgba($accent-color, 0.4);
+            }
+        }
+    }
+}
+
+/* Level Selection Buttons */
+.level-buttons {
+    display: flex;
+    gap: 12px;
+}
+
+.level-btn {
+    flex: 1;
+    padding: 14px;
+    background-color: $input-bg;
+    border: 1px solid $border-color;
+    border-radius: 2px;
+    color: $text-secondary;
+    font-size: 1.1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.2s;
+    text-transform: uppercase;
+
+    &:hover {
+        border-color: $accent-color;
+        color: $text-primary;
+        background-color: rgba($accent-color, 0.05);
+    }
+
+    &.active {
+        background-color: $accent-color;
+        border-color: $accent-color;
+        color: #000;
+        box-shadow: 0 0 10px rgba($accent-color, 0.4);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

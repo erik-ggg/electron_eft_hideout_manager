@@ -1,0 +1,1845 @@
+import { Database } from '../types';
+
+export const INITIAL_DATA: Database = {
+    "items": {
+        "5696686a4bdc2da3298b456a": {
+            "id": "5696686a4bdc2da3298b456a",
+            "name": "Dollars",
+            "image_path": null,
+            "category": "other"
+        },
+        "5d0378d486f77420421a5ff4": {
+            "id": "5d0378d486f77420421a5ff4",
+            "name": "Military power filter",
+            "image_path": null,
+            "category": "other"
+        },
+        "590c595c86f7747884343ad7": {
+            "id": "590c595c86f7747884343ad7",
+            "name": "Gas mask air filter",
+            "image_path": null,
+            "category": "other"
+        },
+        "619cbf476b8a1b37a54eebf8": {
+            "id": "619cbf476b8a1b37a54eebf8",
+            "name": "Military corrugated tube",
+            "image_path": null,
+            "category": "other"
+        },
+        "5734779624597737e04bf329": {
+            "id": "5734779624597737e04bf329",
+            "name": "CPU fan",
+            "image_path": null,
+            "category": "other"
+        },
+        "57347c2e24597744902c94a1": {
+            "id": "57347c2e24597744902c94a1",
+            "name": "Power supply unit",
+            "image_path": null,
+            "category": "other"
+        },
+        "59e36c6f86f774176c10a2a7": {
+            "id": "59e36c6f86f774176c10a2a7",
+            "name": "Power cord",
+            "image_path": null,
+            "category": "other"
+        },
+        "5c05300686f7746dce784e5d": {
+            "id": "5c05300686f7746dce784e5d",
+            "name": "VPX Flash Storage Module",
+            "image_path": null,
+            "category": "other"
+        },
+        "57347cd0245977445a2d6ff1": {
+            "id": "57347cd0245977445a2d6ff1",
+            "name": "T-Shaped plug",
+            "image_path": null,
+            "category": "other"
+        },
+        "590a3b0486f7743954552bdb": {
+            "id": "590a3b0486f7743954552bdb",
+            "name": "Printed circuit board",
+            "image_path": null,
+            "category": "other"
+        },
+        "5d1b313086f77425227d1678": {
+            "id": "5d1b313086f77425227d1678",
+            "name": "Phase control relay",
+            "image_path": null,
+            "category": "other"
+        },
+        "5d1b39a386f774252339976f": {
+            "id": "5d1b39a386f774252339976f",
+            "name": "Silicone tube",
+            "image_path": null,
+            "category": "other"
+        },
+        "5d1b2fa286f77425227d1674": {
+            "id": "5d1b2fa286f77425227d1674",
+            "name": "Electric motor",
+            "image_path": null,
+            "category": "other"
+        },
+        "5d1b327086f7742525194449": {
+            "id": "5d1b327086f7742525194449",
+            "name": "Pressure gauge",
+            "image_path": null,
+            "category": "other"
+        },
+        "5d03794386f77420415576f5": {
+            "id": "5d03794386f77420415576f5",
+            "name": "6-STEN-140-M military battery",
+            "image_path": null,
+            "category": "other"
+        },
+        "59e35cbb86f7741778269d83": {
+            "id": "59e35cbb86f7741778269d83",
+            "name": "Corrugated hose",
+            "image_path": null,
+            "category": "other"
+        },
+        "5d1b32c186f774252167a530": {
+            "id": "5d1b32c186f774252167a530",
+            "name": "Analog thermometer",
+            "image_path": null,
+            "category": "other"
+        },
+        "5d1c774f86f7746d6620f8db": {
+            "id": "5d1c774f86f7746d6620f8db",
+            "name": "Radiator helix",
+            "image_path": null,
+            "category": "other"
+        },
+        "619cbfccbedcde2f5b3f7bdd": {
+            "id": "619cbfccbedcde2f5b3f7bdd",
+            "name": "Pipe grip wrench",
+            "image_path": null,
+            "category": "other"
+        },
+        "61bf7b6302b3924be92fa8c3": {
+            "id": "61bf7b6302b3924be92fa8c3",
+            "name": "Metal spare parts",
+            "image_path": null,
+            "category": "other"
+        },
+        "5449016a4bdc2d6f028b456f": {
+            "id": "5449016a4bdc2d6f028b456f",
+            "name": "Roubles",
+            "image_path": null,
+            "category": "other"
+        },
+        "590a3c0a86f774385a33c450": {
+            "id": "590a3c0a86f774385a33c450",
+            "name": "Spark plug",
+            "image_path": null,
+            "category": "other"
+        },
+        "5c06779c86f77426e00dd782": {
+            "id": "5c06779c86f77426e00dd782",
+            "name": "Bundle of wires",
+            "image_path": null,
+            "category": "other"
+        },
+        "619cbfeb6b8a1b37a54eebfa": {
+            "id": "619cbfeb6b8a1b37a54eebfa",
+            "name": "Bulbex cable cutter",
+            "image_path": null,
+            "category": "other"
+        },
+        "57347b8b24597737dd42e192": {
+            "id": "57347b8b24597737dd42e192",
+            "name": "Classic matches",
+            "image_path": null,
+            "category": "other"
+        },
+        "590a373286f774287540368b": {
+            "id": "590a373286f774287540368b",
+            "name": "Dry fuel",
+            "image_path": null,
+            "category": "other"
+        },
+        "5e2af2bc86f7746d3f3c33fc": {
+            "id": "5e2af2bc86f7746d3f3c33fc",
+            "name": "Hunting matches",
+            "image_path": null,
+            "category": "other"
+        },
+        "56742c284bdc2d98058b456d": {
+            "id": "56742c284bdc2d98058b456d",
+            "name": "Crickent lighter",
+            "image_path": null,
+            "category": "other"
+        },
+        "5d1b392c86f77425243e98fe": {
+            "id": "5d1b392c86f77425243e98fe",
+            "name": "Light bulb",
+            "image_path": null,
+            "category": "other"
+        },
+        "5c06782b86f77426df5407d2": {
+            "id": "5c06782b86f77426df5407d2",
+            "name": "Capacitors",
+            "image_path": null,
+            "category": "other"
+        },
+        "590a3cd386f77436f20848cb": {
+            "id": "590a3cd386f77436f20848cb",
+            "name": "Energy-saving lamp",
+            "image_path": null,
+            "category": "other"
+        },
+        "5c12613b86f7743bbe2c3f76": {
+            "id": "5c12613b86f7743bbe2c3f76",
+            "name": "Intelligence folder",
+            "image_path": null,
+            "category": "other"
+        },
+        "62a0a124de7ac81993580542": {
+            "id": "62a0a124de7ac81993580542",
+            "name": "Topographic survey maps",
+            "image_path": null,
+            "category": "other"
+        },
+        "574eb85c245977648157eec3": {
+            "id": "574eb85c245977648157eec3",
+            "name": "Factory plan map",
+            "image_path": null,
+            "category": "other"
+        },
+        "590c621186f774138d11ea29": {
+            "id": "590c621186f774138d11ea29",
+            "name": "Secure Flash drive",
+            "image_path": null,
+            "category": "other"
+        },
+        "590a386e86f77429692b27ab": {
+            "id": "590a386e86f77429692b27ab",
+            "name": "Damaged hard drive",
+            "image_path": null,
+            "category": "other"
+        },
+        "5c052f6886f7746b1e3db148": {
+            "id": "5c052f6886f7746b1e3db148",
+            "name": "Military COFDM Wireless Signal Transmitter",
+            "image_path": null,
+            "category": "other"
+        },
+        "62a0a16d0b9d3c46de5b6e97": {
+            "id": "62a0a16d0b9d3c46de5b6e97",
+            "name": "Military flash drive",
+            "image_path": null,
+            "category": "other"
+        },
+        "5d0375ff86f774186372f685": {
+            "id": "5d0375ff86f774186372f685",
+            "name": "Military cable",
+            "image_path": null,
+            "category": "other"
+        },
+        "61bf7c024770ee6f9c6b8b53": {
+            "id": "61bf7c024770ee6f9c6b8b53",
+            "name": "Secure magnetic tape cassette",
+            "image_path": null,
+            "category": "other"
+        },
+        "5c13cef886f774072e618e82": {
+            "id": "5c13cef886f774072e618e82",
+            "name": "Toilet paper",
+            "image_path": null,
+            "category": "other"
+        },
+        "57347c93245977448d35f6e3": {
+            "id": "57347c93245977448d35f6e3",
+            "name": "Toothpaste",
+            "image_path": null,
+            "category": "other"
+        },
+        "5c13cd2486f774072c757944": {
+            "id": "5c13cd2486f774072c757944",
+            "name": "Soap",
+            "image_path": null,
+            "category": "other"
+        },
+        "62a0a098de7ac8199358053b": {
+            "id": "62a0a098de7ac8199358053b",
+            "name": "Awl",
+            "image_path": null,
+            "category": "other"
+        },
+        "59e35ef086f7741777737012": {
+            "id": "59e35ef086f7741777737012",
+            "name": "Pack of screws",
+            "image_path": null,
+            "category": "other"
+        },
+        "59e35de086f7741778269d84": {
+            "id": "59e35de086f7741778269d84",
+            "name": "Electric drill",
+            "image_path": null,
+            "category": "other"
+        },
+        "5e2af29386f7746d4159f077": {
+            "id": "5e2af29386f7746d4159f077",
+            "name": "KEKTAPE duct tape",
+            "image_path": null,
+            "category": "other"
+        },
+        "61bf83814088ec1a363d7097": {
+            "id": "61bf83814088ec1a363d7097",
+            "name": "Sewing kit",
+            "image_path": null,
+            "category": "other"
+        },
+        "590c2e1186f77425357b6124": {
+            "id": "590c2e1186f77425357b6124",
+            "name": "Toolset",
+            "image_path": null,
+            "category": "other"
+        },
+        "590c346786f77423e50ed342": {
+            "id": "590c346786f77423e50ed342",
+            "name": "Xenomorph sealing foam",
+            "image_path": null,
+            "category": "other"
+        },
+        "62a09e73af34e73a266d932a": {
+            "id": "62a09e73af34e73a266d932a",
+            "name": "BakeEzy cook book",
+            "image_path": null,
+            "category": "other"
+        },
+        "573474f924597738002c6174": {
+            "id": "573474f924597738002c6174",
+            "name": "Chainlet",
+            "image_path": null,
+            "category": "other"
+        },
+        "573478bc24597738002c6175": {
+            "id": "573478bc24597738002c6175",
+            "name": "Horse figurine",
+            "image_path": null,
+            "category": "other"
+        },
+        "590c639286f774151567fa95": {
+            "id": "590c639286f774151567fa95",
+            "name": "Tech manual",
+            "image_path": null,
+            "category": "other"
+        },
+        "590c645c86f77412b01304d9": {
+            "id": "590c645c86f77412b01304d9",
+            "name": "Diary",
+            "image_path": null,
+            "category": "other"
+        },
+        "590c651286f7741e566b6461": {
+            "id": "590c651286f7741e566b6461",
+            "name": "Slim diary",
+            "image_path": null,
+            "category": "other"
+        },
+        "5d1b3f2d86f774253763b735": {
+            "id": "5d1b3f2d86f774253763b735",
+            "name": "Disposable syringe",
+            "image_path": null,
+            "category": "other"
+        },
+        "5d1b3a5d86f774252167ba22": {
+            "id": "5d1b3a5d86f774252167ba22",
+            "name": "Pile of meds",
+            "image_path": null,
+            "category": "other"
+        },
+        "544fb25a4bdc2dfb738b4567": {
+            "id": "544fb25a4bdc2dfb738b4567",
+            "name": "Aseptic bandage",
+            "image_path": null,
+            "category": "other"
+        },
+        "62a0a043cf4a99369e2624a5": {
+            "id": "62a0a043cf4a99369e2624a5",
+            "name": "Bottle of OLOLO Multivitamins",
+            "image_path": null,
+            "category": "other"
+        },
+        "5e831507ea0a7c419c2f9bd9": {
+            "id": "5e831507ea0a7c419c2f9bd9",
+            "name": "Esmarch tourniquet",
+            "image_path": null,
+            "category": "other"
+        },
+        "5b4335ba86f7744d2837a264": {
+            "id": "5b4335ba86f7744d2837a264",
+            "name": "Medical bloodset",
+            "image_path": null,
+            "category": "other"
+        },
+        "59e3606886f77417674759a5": {
+            "id": "59e3606886f77417674759a5",
+            "name": "Bottle of saline solution",
+            "image_path": null,
+            "category": "other"
+        },
+        "619cc01e0a7c3a1a2731940c": {
+            "id": "619cc01e0a7c3a1a2731940c",
+            "name": "Medical tools",
+            "image_path": null,
+            "category": "other"
+        },
+        "5c0530ee86f774697952d952": {
+            "id": "5c0530ee86f774697952d952",
+            "name": "LEDX Skin Transilluminator",
+            "image_path": null,
+            "category": "other"
+        },
+        "5af0534a86f7743b6f354284": {
+            "id": "5af0534a86f7743b6f354284",
+            "name": "Ophthalmoscope",
+            "image_path": null,
+            "category": "other"
+        },
+        "62a09ee4cf4a99369e262453": {
+            "id": "62a09ee4cf4a99369e262453",
+            "name": "Can of white salt",
+            "image_path": null,
+            "category": "other"
+        },
+        "590c311186f77424d1667482": {
+            "id": "590c311186f77424d1667482",
+            "name": "Wrench",
+            "image_path": null,
+            "category": "other"
+        },
+        "59faf98186f774067b6be103": {
+            "id": "59faf98186f774067b6be103",
+            "name": "Alkaline cleaner for heat exchangers",
+            "image_path": null,
+            "category": "other"
+        },
+        "5e2af00086f7746d3f3c33f7": {
+            "id": "5e2af00086f7746d3f3c33f7",
+            "name": "Smoked Chimney drain cleaner",
+            "image_path": null,
+            "category": "other"
+        },
+        "59e35abd86f7741778269d82": {
+            "id": "59e35abd86f7741778269d82",
+            "name": "Pack of sodium bicarbonate",
+            "image_path": null,
+            "category": "other"
+        },
+        "5af0484c86f7740f02001f7f": {
+            "id": "5af0484c86f7740f02001f7f",
+            "name": "Can of Majaica coffee beans",
+            "image_path": null,
+            "category": "other"
+        },
+        "57347c1124597737fb1379e3": {
+            "id": "57347c1124597737fb1379e3",
+            "name": "Duct tape",
+            "image_path": null,
+            "category": "other"
+        },
+        "590a391c86f774385a33c404": {
+            "id": "590a391c86f774385a33c404",
+            "name": "Magnet",
+            "image_path": null,
+            "category": "other"
+        },
+        "5734781f24597737e04bf32a": {
+            "id": "5734781f24597737e04bf32a",
+            "name": "DVD drive",
+            "image_path": null,
+            "category": "other"
+        },
+        "5e2aedd986f7746d404f3aa4": {
+            "id": "5e2aedd986f7746d404f3aa4",
+            "name": "GreenBat lithium battery",
+            "image_path": null,
+            "category": "other"
+        },
+        "59e3639286f7741777737013": {
+            "id": "59e3639286f7741777737013",
+            "name": "Bronze lion figurine",
+            "image_path": null,
+            "category": "other"
+        },
+        "5d235a5986f77443f6329bc6": {
+            "id": "5d235a5986f77443f6329bc6",
+            "name": "Gold skull ring",
+            "image_path": null,
+            "category": "other"
+        },
+        "5734758f24597738025ee253": {
+            "id": "5734758f24597738025ee253",
+            "name": "Golden neck chain",
+            "image_path": null,
+            "category": "other"
+        },
+        "59faf7ca86f7740dbe19f6c2": {
+            "id": "59faf7ca86f7740dbe19f6c2",
+            "name": "Roler Submariner gold wrist watch",
+            "image_path": null,
+            "category": "other"
+        },
+        "5d1b376e86f774252519444e": {
+            "id": "5d1b376e86f774252519444e",
+            "name": "Bottle of Fierce Hatchling moonshine",
+            "image_path": null,
+            "category": "other"
+        },
+        "5b7c710788a4506dec015957": {
+            "id": "5b7c710788a4506dec015957",
+            "name": "Lucky Scav Junk box",
+            "image_path": null,
+            "category": "other"
+        },
+        "5bc9bc53d4351e00367fbcee": {
+            "id": "5bc9bc53d4351e00367fbcee",
+            "name": "Golden rooster figurine",
+            "image_path": null,
+            "category": "other"
+        },
+        "590c2c9c86f774245b1f03f2": {
+            "id": "590c2c9c86f774245b1f03f2",
+            "name": "Construction measuring tape",
+            "image_path": null,
+            "category": "other"
+        },
+        "5af04b6486f774195a3ebb49": {
+            "id": "5af04b6486f774195a3ebb49",
+            "name": "Pliers Elite",
+            "image_path": null,
+            "category": "other"
+        },
+        "590c5bbd86f774785762df04": {
+            "id": "590c5bbd86f774785762df04",
+            "name": "WD-40 (100ml)",
+            "image_path": null,
+            "category": "other"
+        },
+        "60391b0fb847c71012789415": {
+            "id": "60391b0fb847c71012789415",
+            "name": "TP-200 TNT brick",
+            "image_path": null,
+            "category": "other"
+        },
+        "5d1b304286f774253763a528": {
+            "id": "5d1b304286f774253763a528",
+            "name": "Working LCD",
+            "image_path": null,
+            "category": "other"
+        },
+        "5d1b2ffd86f77425243e8d17": {
+            "id": "5d1b2ffd86f77425243e8d17",
+            "name": "NIXXOR lens",
+            "image_path": null,
+            "category": "other"
+        },
+        "590c392f86f77444754deb29": {
+            "id": "590c392f86f77444754deb29",
+            "name": "SSD drive",
+            "image_path": null,
+            "category": "other"
+        },
+        "590c31c586f774245e3141b2": {
+            "id": "590c31c586f774245e3141b2",
+            "name": "Pack of nails",
+            "image_path": null,
+            "category": "other"
+        },
+        "57347c77245977448d35f6e2": {
+            "id": "57347c77245977448d35f6e2",
+            "name": "Screw nuts",
+            "image_path": null,
+            "category": "other"
+        },
+        "57347c5b245977448d35f6e1": {
+            "id": "57347c5b245977448d35f6e1",
+            "name": "Bolts",
+            "image_path": null,
+            "category": "other"
+        },
+        "5d03775b86f774203e7e0c4b": {
+            "id": "5d03775b86f774203e7e0c4b",
+            "name": "Phased array element",
+            "image_path": null,
+            "category": "other"
+        },
+        "569668774bdc2da2298b4568": {
+            "id": "569668774bdc2da2298b4568",
+            "name": "Euros",
+            "image_path": null,
+            "category": "other"
+        },
+        "5d1b317c86f7742523398392": {
+            "id": "5d1b317c86f7742523398392",
+            "name": "Hand drill",
+            "image_path": null,
+            "category": "other"
+        },
+        "590c35a486f774273531c822": {
+            "id": "590c35a486f774273531c822",
+            "name": "Shustrilo sealing foam",
+            "image_path": null,
+            "category": "other"
+        },
+        "60391afc25aff57af81f7085": {
+            "id": "60391afc25aff57af81f7085",
+            "name": "Ratchet wrench",
+            "image_path": null,
+            "category": "other"
+        },
+        "5733279d245977289b77ec24": {
+            "id": "5733279d245977289b77ec24",
+            "name": "Car battery",
+            "image_path": null,
+            "category": "other"
+        },
+        "544fb5454bdc2df8738b456a": {
+            "id": "544fb5454bdc2df8738b456a",
+            "name": "Leatherman Multitool",
+            "image_path": null,
+            "category": "other"
+        },
+        "5d1c819a86f774771b0acd6c": {
+            "id": "5d1c819a86f774771b0acd6c",
+            "name": "Weapon parts",
+            "image_path": null,
+            "category": "other"
+        },
+        "62a0a0bb621468534a797ad5": {
+            "id": "62a0a0bb621468534a797ad5",
+            "name": "Set of files \"Master\"",
+            "image_path": null,
+            "category": "other"
+        },
+        "5bc9b355d4351e6d1509862a": {
+            "id": "5bc9b355d4351e6d1509862a",
+            "name": "#FireKlean gun lube",
+            "image_path": null,
+            "category": "other"
+        },
+        "60391a8b3364dc22b04d0ce5": {
+            "id": "60391a8b3364dc22b04d0ce5",
+            "name": "Can of thermite",
+            "image_path": null,
+            "category": "other"
+        },
+        "5df8a6a186f77412640e2e80": {
+            "id": "5df8a6a186f77412640e2e80",
+            "name": "Christmas tree ornament (Red)",
+            "image_path": null,
+            "category": "other"
+        },
+        "5df8a72c86f77412640e2e83": {
+            "id": "5df8a72c86f77412640e2e83",
+            "name": "Christmas tree ornament (Silver)",
+            "image_path": null,
+            "category": "other"
+        },
+        "5df8a77486f77412672a1e3f": {
+            "id": "5df8a77486f77412672a1e3f",
+            "name": "Christmas tree ornament (Violet)",
+            "image_path": null,
+            "category": "other"
+        }
+    },
+    "modules": {
+        "module-air-filtering-unit": {
+            "id": "module-air-filtering-unit",
+            "name": "Air Filtering Unit",
+            "levels": {
+                "1": {
+                    "level": 1,
+                    "requirements": [
+                        {
+                            "item_id": "5696686a4bdc2da3298b456a",
+                            "quantity": 25000
+                        },
+                        {
+                            "item_id": "5d0378d486f77420421a5ff4",
+                            "quantity": 5
+                        },
+                        {
+                            "item_id": "590c595c86f7747884343ad7",
+                            "quantity": 5
+                        },
+                        {
+                            "item_id": "619cbf476b8a1b37a54eebf8",
+                            "quantity": 3
+                        }
+                    ]
+                }
+            }
+        },
+        "module-bitcoin-farm": {
+            "id": "module-bitcoin-farm",
+            "name": "Bitcoin farm",
+            "levels": {
+                "1": {
+                    "level": 1,
+                    "requirements": [
+                        {
+                            "item_id": "5734779624597737e04bf329",
+                            "quantity": 15
+                        },
+                        {
+                            "item_id": "57347c2e24597744902c94a1",
+                            "quantity": 10
+                        },
+                        {
+                            "item_id": "59e36c6f86f774176c10a2a7",
+                            "quantity": 10
+                        },
+                        {
+                            "item_id": "5c05300686f7746dce784e5d",
+                            "quantity": 1
+                        },
+                        {
+                            "item_id": "57347cd0245977445a2d6ff1",
+                            "quantity": 5
+                        }
+                    ]
+                },
+                "2": {
+                    "level": 2,
+                    "requirements": [
+                        {
+                            "item_id": "5734779624597737e04bf329",
+                            "quantity": 15
+                        },
+                        {
+                            "item_id": "57347c2e24597744902c94a1",
+                            "quantity": 10
+                        },
+                        {
+                            "item_id": "590a3b0486f7743954552bdb",
+                            "quantity": 15
+                        },
+                        {
+                            "item_id": "5d1b313086f77425227d1678",
+                            "quantity": 5
+                        },
+                        {
+                            "item_id": "5d0378d486f77420421a5ff4",
+                            "quantity": 2
+                        }
+                    ]
+                },
+                "3": {
+                    "level": 3,
+                    "requirements": [
+                        {
+                            "item_id": "5734779624597737e04bf329",
+                            "quantity": 25
+                        },
+                        {
+                            "item_id": "5d1b39a386f774252339976f",
+                            "quantity": 15
+                        },
+                        {
+                            "item_id": "5d1b2fa286f77425227d1674",
+                            "quantity": 10
+                        },
+                        {
+                            "item_id": "5d1b327086f7742525194449",
+                            "quantity": 10
+                        },
+                        {
+                            "item_id": "5d03794386f77420415576f5",
+                            "quantity": 1
+                        }
+                    ]
+                }
+            }
+        },
+        "module-booze-generator": {
+            "id": "module-booze-generator",
+            "name": "Booze generator",
+            "levels": {
+                "1": {
+                    "level": 1,
+                    "requirements": [
+                        {
+                            "item_id": "59e35cbb86f7741778269d83",
+                            "quantity": 5
+                        },
+                        {
+                            "item_id": "5d1b39a386f774252339976f",
+                            "quantity": 4
+                        },
+                        {
+                            "item_id": "5d1b32c186f774252167a530",
+                            "quantity": 2
+                        },
+                        {
+                            "item_id": "5d1b327086f7742525194449",
+                            "quantity": 2
+                        },
+                        {
+                            "item_id": "5d1c774f86f7746d6620f8db",
+                            "quantity": 3
+                        },
+                        {
+                            "item_id": "619cbfccbedcde2f5b3f7bdd",
+                            "quantity": 1
+                        },
+                        {
+                            "item_id": "61bf7b6302b3924be92fa8c3",
+                            "quantity": 2
+                        }
+                    ]
+                }
+            }
+        },
+        "module-generator": {
+            "id": "module-generator",
+            "name": "Generator",
+            "levels": {
+                "1": {
+                    "level": 1,
+                    "requirements": [
+                        {
+                            "item_id": "5449016a4bdc2d6f028b456f",
+                            "quantity": 100000
+                        },
+                        {
+                            "item_id": "590a3c0a86f774385a33c450",
+                            "quantity": 1
+                        }
+                    ]
+                },
+                "2": {
+                    "level": 2,
+                    "requirements": [
+                        {
+                            "item_id": "5d1b313086f77425227d1678",
+                            "quantity": 5
+                        },
+                        {
+                            "item_id": "5d1b2fa286f77425227d1674",
+                            "quantity": 1
+                        },
+                        {
+                            "item_id": "5c06779c86f77426e00dd782",
+                            "quantity": 15
+                        },
+                        {
+                            "item_id": "619cbfeb6b8a1b37a54eebfa",
+                            "quantity": 1
+                        }
+                    ]
+                },
+                "3": {
+                    "level": 3,
+                    "requirements": [
+                        {
+                            "item_id": "5d1b313086f77425227d1678",
+                            "quantity": 6
+                        },
+                        {
+                            "item_id": "5d1b2fa286f77425227d1674",
+                            "quantity": 3
+                        },
+                        {
+                            "item_id": "590a3c0a86f774385a33c450",
+                            "quantity": 10
+                        },
+                        {
+                            "item_id": "57347c2e24597744902c94a1",
+                            "quantity": 5
+                        },
+                        {
+                            "item_id": "61bf7b6302b3924be92fa8c3",
+                            "quantity": 7
+                        }
+                    ]
+                }
+            }
+        },
+        "module-heating": {
+            "id": "module-heating",
+            "name": "Heating",
+            "levels": {
+                "1": {
+                    "level": 1,
+                    "requirements": [
+                        {
+                            "item_id": "5449016a4bdc2d6f028b456f",
+                            "quantity": 25000
+                        },
+                        {
+                            "item_id": "57347b8b24597737dd42e192",
+                            "quantity": 2
+                        }
+                    ]
+                },
+                "2": {
+                    "level": 2,
+                    "requirements": [
+                        {
+                            "item_id": "5449016a4bdc2d6f028b456f",
+                            "quantity": 50000
+                        },
+                        {
+                            "item_id": "590a373286f774287540368b",
+                            "quantity": 3
+                        },
+                        {
+                            "item_id": "5e2af2bc86f7746d3f3c33fc",
+                            "quantity": 2
+                        },
+                        {
+                            "item_id": "56742c284bdc2d98058b456d",
+                            "quantity": 3
+                        }
+                    ]
+                },
+                "3": {
+                    "level": 3,
+                    "requirements": [
+                        {
+                            "item_id": "5d1c774f86f7746d6620f8db",
+                            "quantity": 8
+                        },
+                        {
+                            "item_id": "5c06779c86f77426e00dd782",
+                            "quantity": 8
+                        },
+                        {
+                            "item_id": "5d1b313086f77425227d1678",
+                            "quantity": 4
+                        },
+                        {
+                            "item_id": "619cbf476b8a1b37a54eebf8",
+                            "quantity": 2
+                        }
+                    ]
+                }
+            }
+        },
+        "module-illumination": {
+            "id": "module-illumination",
+            "name": "Illumination",
+            "levels": {
+                "1": {
+                    "level": 1,
+                    "requirements": [
+                        {
+                            "item_id": "5449016a4bdc2d6f028b456f",
+                            "quantity": 10000
+                        },
+                        {
+                            "item_id": "56742c284bdc2d98058b456d",
+                            "quantity": 1
+                        }
+                    ]
+                },
+                "2": {
+                    "level": 2,
+                    "requirements": [
+                        {
+                            "item_id": "5d1b392c86f77425243e98fe",
+                            "quantity": 14
+                        },
+                        {
+                            "item_id": "5c06779c86f77426e00dd782",
+                            "quantity": 10
+                        }
+                    ]
+                },
+                "3": {
+                    "level": 3,
+                    "requirements": [
+                        {
+                            "item_id": "5c06782b86f77426df5407d2",
+                            "quantity": 7
+                        },
+                        {
+                            "item_id": "5c06779c86f77426e00dd782",
+                            "quantity": 6
+                        },
+                        {
+                            "item_id": "590a3cd386f77436f20848cb",
+                            "quantity": 12
+                        },
+                        {
+                            "item_id": "5449016a4bdc2d6f028b456f",
+                            "quantity": 50000
+                        }
+                    ]
+                }
+            }
+        },
+        "module-intelligence-center": {
+            "id": "module-intelligence-center",
+            "name": "Intelligence center",
+            "levels": {
+                "1": {
+                    "level": 1,
+                    "requirements": [
+                        {
+                            "item_id": "5c12613b86f7743bbe2c3f76",
+                            "quantity": 1
+                        },
+                        {
+                            "item_id": "62a0a124de7ac81993580542",
+                            "quantity": 1
+                        },
+                        {
+                            "item_id": "574eb85c245977648157eec3",
+                            "quantity": 1
+                        }
+                    ]
+                },
+                "2": {
+                    "level": 2,
+                    "requirements": [
+                        {
+                            "item_id": "5c12613b86f7743bbe2c3f76",
+                            "quantity": 3
+                        },
+                        {
+                            "item_id": "590c621186f774138d11ea29",
+                            "quantity": 3
+                        },
+                        {
+                            "item_id": "59e36c6f86f774176c10a2a7",
+                            "quantity": 4
+                        },
+                        {
+                            "item_id": "590a386e86f77429692b27ab",
+                            "quantity": 4
+                        }
+                    ]
+                },
+                "3": {
+                    "level": 3,
+                    "requirements": [
+                        {
+                            "item_id": "5c052f6886f7746b1e3db148",
+                            "quantity": 2
+                        },
+                        {
+                            "item_id": "5c05300686f7746dce784e5d",
+                            "quantity": 2
+                        },
+                        {
+                            "item_id": "62a0a16d0b9d3c46de5b6e97",
+                            "quantity": 5
+                        },
+                        {
+                            "item_id": "5d0375ff86f774186372f685",
+                            "quantity": 5
+                        },
+                        {
+                            "item_id": "61bf7c024770ee6f9c6b8b53",
+                            "quantity": 2
+                        }
+                    ]
+                }
+            }
+        },
+        "module-lavatory": {
+            "id": "module-lavatory",
+            "name": "Lavatory",
+            "levels": {
+                "1": {
+                    "level": 1,
+                    "requirements": [
+                        {
+                            "item_id": "5449016a4bdc2d6f028b456f",
+                            "quantity": 2000
+                        },
+                        {
+                            "item_id": "5c13cef886f774072e618e82",
+                            "quantity": 1
+                        },
+                        {
+                            "item_id": "57347c93245977448d35f6e3",
+                            "quantity": 1
+                        },
+                        {
+                            "item_id": "5c13cd2486f774072c757944",
+                            "quantity": 1
+                        },
+                        {
+                            "item_id": "62a0a098de7ac8199358053b",
+                            "quantity": 1
+                        }
+                    ]
+                },
+                "2": {
+                    "level": 2,
+                    "requirements": [
+                        {
+                            "item_id": "59e35cbb86f7741778269d83",
+                            "quantity": 3
+                        },
+                        {
+                            "item_id": "59e35ef086f7741777737012",
+                            "quantity": 5
+                        },
+                        {
+                            "item_id": "59e35de086f7741778269d84",
+                            "quantity": 1
+                        },
+                        {
+                            "item_id": "5e2af29386f7746d4159f077",
+                            "quantity": 1
+                        },
+                        {
+                            "item_id": "61bf83814088ec1a363d7097",
+                            "quantity": 2
+                        }
+                    ]
+                },
+                "3": {
+                    "level": 3,
+                    "requirements": [
+                        {
+                            "item_id": "59e35cbb86f7741778269d83",
+                            "quantity": 6
+                        },
+                        {
+                            "item_id": "5d1b327086f7742525194449",
+                            "quantity": 2
+                        },
+                        {
+                            "item_id": "590c2e1186f77425357b6124",
+                            "quantity": 1
+                        },
+                        {
+                            "item_id": "590c346786f77423e50ed342",
+                            "quantity": 3
+                        }
+                    ]
+                }
+            }
+        },
+        "module-library": {
+            "id": "module-library",
+            "name": "Library",
+            "levels": {
+                "1": {
+                    "level": 1,
+                    "requirements": [
+                        {
+                            "item_id": "62a09e73af34e73a266d932a",
+                            "quantity": 1
+                        },
+                        {
+                            "item_id": "5449016a4bdc2d6f028b456f",
+                            "quantity": 400000
+                        },
+                        {
+                            "item_id": "573474f924597738002c6174",
+                            "quantity": 2
+                        },
+                        {
+                            "item_id": "573478bc24597738002c6175",
+                            "quantity": 1
+                        },
+                        {
+                            "item_id": "590c639286f774151567fa95",
+                            "quantity": 5
+                        },
+                        {
+                            "item_id": "590c645c86f77412b01304d9",
+                            "quantity": 2
+                        },
+                        {
+                            "item_id": "590c651286f7741e566b6461",
+                            "quantity": 2
+                        }
+                    ]
+                }
+            }
+        },
+        "module-medstation": {
+            "id": "module-medstation",
+            "name": "Medstation",
+            "levels": {
+                "1": {
+                    "level": 1,
+                    "requirements": [
+                        {
+                            "item_id": "5449016a4bdc2d6f028b456f",
+                            "quantity": 50000
+                        },
+                        {
+                            "item_id": "5d1b3f2d86f774253763b735",
+                            "quantity": 1
+                        },
+                        {
+                            "item_id": "5d1b3a5d86f774252167ba22",
+                            "quantity": 1
+                        },
+                        {
+                            "item_id": "544fb25a4bdc2dfb738b4567",
+                            "quantity": 2
+                        },
+                        {
+                            "item_id": "62a0a043cf4a99369e2624a5",
+                            "quantity": 1
+                        }
+                    ]
+                },
+                "2": {
+                    "level": 2,
+                    "requirements": [
+                        {
+                            "item_id": "5e831507ea0a7c419c2f9bd9",
+                            "quantity": 5
+                        },
+                        {
+                            "item_id": "5b4335ba86f7744d2837a264",
+                            "quantity": 2
+                        },
+                        {
+                            "item_id": "59e3606886f77417674759a5",
+                            "quantity": 3
+                        },
+                        {
+                            "item_id": "5449016a4bdc2d6f028b456f",
+                            "quantity": 150000
+                        },
+                        {
+                            "item_id": "619cc01e0a7c3a1a2731940c",
+                            "quantity": 3
+                        }
+                    ]
+                },
+                "3": {
+                    "level": 3,
+                    "requirements": [
+                        {
+                            "item_id": "5c0530ee86f774697952d952",
+                            "quantity": 1
+                        },
+                        {
+                            "item_id": "5af0534a86f7743b6f354284",
+                            "quantity": 1
+                        },
+                        {
+                            "item_id": "59e3606886f77417674759a5",
+                            "quantity": 4
+                        },
+                        {
+                            "item_id": "5449016a4bdc2d6f028b456f",
+                            "quantity": 500000
+                        }
+                    ]
+                }
+            }
+        },
+        "module-nutrition-unit": {
+            "id": "module-nutrition-unit",
+            "name": "Nutrition unit",
+            "levels": {
+                "1": {
+                    "level": 1,
+                    "requirements": [
+                        {
+                            "item_id": "5d1b313086f77425227d1678",
+                            "quantity": 2
+                        },
+                        {
+                            "item_id": "59e36c6f86f774176c10a2a7",
+                            "quantity": 1
+                        },
+                        {
+                            "item_id": "5449016a4bdc2d6f028b456f",
+                            "quantity": 25000
+                        },
+                        {
+                            "item_id": "62a09ee4cf4a99369e262453",
+                            "quantity": 1
+                        }
+                    ]
+                },
+                "2": {
+                    "level": 2,
+                    "requirements": [
+                        {
+                            "item_id": "5d1b313086f77425227d1678",
+                            "quantity": 1
+                        },
+                        {
+                            "item_id": "590c311186f77424d1667482",
+                            "quantity": 4
+                        },
+                        {
+                            "item_id": "59e35cbb86f7741778269d83",
+                            "quantity": 2
+                        },
+                        {
+                            "item_id": "59faf98186f774067b6be103",
+                            "quantity": 2
+                        }
+                    ]
+                },
+                "3": {
+                    "level": 3,
+                    "requirements": [
+                        {
+                            "item_id": "5e2af00086f7746d3f3c33f7",
+                            "quantity": 2
+                        },
+                        {
+                            "item_id": "59e35abd86f7741778269d82",
+                            "quantity": 3
+                        },
+                        {
+                            "item_id": "5af0484c86f7740f02001f7f",
+                            "quantity": 3
+                        },
+                        {
+                            "item_id": "5449016a4bdc2d6f028b456f",
+                            "quantity": 125000
+                        }
+                    ]
+                }
+            }
+        },
+        "module-rest-space": {
+            "id": "module-rest-space",
+            "name": "Rest space",
+            "levels": {
+                "1": {
+                    "level": 1,
+                    "requirements": [
+                        {
+                            "item_id": "5449016a4bdc2d6f028b456f",
+                            "quantity": 10000
+                        },
+                        {
+                            "item_id": "57347c1124597737fb1379e3",
+                            "quantity": 1
+                        },
+                        {
+                            "item_id": "57347b8b24597737dd42e192",
+                            "quantity": 1
+                        }
+                    ]
+                },
+                "2": {
+                    "level": 2,
+                    "requirements": [
+                        {
+                            "item_id": "590a391c86f774385a33c404",
+                            "quantity": 1
+                        },
+                        {
+                            "item_id": "5734781f24597737e04bf32a",
+                            "quantity": 1
+                        },
+                        {
+                            "item_id": "590a3cd386f77436f20848cb",
+                            "quantity": 3
+                        },
+                        {
+                            "item_id": "5449016a4bdc2d6f028b456f",
+                            "quantity": 35000
+                        }
+                    ]
+                },
+                "3": {
+                    "level": 3,
+                    "requirements": [
+                        {
+                            "item_id": "59e36c6f86f774176c10a2a7",
+                            "quantity": 4
+                        },
+                        {
+                            "item_id": "5c06782b86f77426df5407d2",
+                            "quantity": 5
+                        },
+                        {
+                            "item_id": "5c06779c86f77426e00dd782",
+                            "quantity": 7
+                        },
+                        {
+                            "item_id": "5e2aedd986f7746d404f3aa4",
+                            "quantity": 5
+                        }
+                    ]
+                }
+            }
+        },
+        "module-scav-case": {
+            "id": "module-scav-case",
+            "name": "Scav case",
+            "levels": {
+                "1": {
+                    "level": 1,
+                    "requirements": [
+                        {
+                            "item_id": "59e3639286f7741777737013",
+                            "quantity": 3
+                        },
+                        {
+                            "item_id": "5d235a5986f77443f6329bc6",
+                            "quantity": 6
+                        },
+                        {
+                            "item_id": "5734758f24597738025ee253",
+                            "quantity": 8
+                        },
+                        {
+                            "item_id": "59faf7ca86f7740dbe19f6c2",
+                            "quantity": 4
+                        },
+                        {
+                            "item_id": "5d1b376e86f774252519444e",
+                            "quantity": 3
+                        },
+                        {
+                            "item_id": "5b7c710788a4506dec015957",
+                            "quantity": 1
+                        },
+                        {
+                            "item_id": "5bc9bc53d4351e00367fbcee",
+                            "quantity": 1
+                        }
+                    ]
+                }
+            }
+        },
+        "module-security": {
+            "id": "module-security",
+            "name": "Security",
+            "levels": {
+                "1": {
+                    "level": 1,
+                    "requirements": [
+                        {
+                            "item_id": "5449016a4bdc2d6f028b456f",
+                            "quantity": 20000
+                        },
+                        {
+                            "item_id": "590c2c9c86f774245b1f03f2",
+                            "quantity": 1
+                        }
+                    ]
+                },
+                "2": {
+                    "level": 2,
+                    "requirements": [
+                        {
+                            "item_id": "5449016a4bdc2d6f028b456f",
+                            "quantity": 45000
+                        },
+                        {
+                            "item_id": "5af04b6486f774195a3ebb49",
+                            "quantity": 1
+                        },
+                        {
+                            "item_id": "590c5bbd86f774785762df04",
+                            "quantity": 1
+                        },
+                        {
+                            "item_id": "60391b0fb847c71012789415",
+                            "quantity": 1
+                        }
+                    ]
+                },
+                "3": {
+                    "level": 3,
+                    "requirements": [
+                        {
+                            "item_id": "5d1b304286f774253763a528",
+                            "quantity": 2
+                        },
+                        {
+                            "item_id": "5c06779c86f77426e00dd782",
+                            "quantity": 4
+                        },
+                        {
+                            "item_id": "5d1b2ffd86f77425243e8d17",
+                            "quantity": 8
+                        },
+                        {
+                            "item_id": "590c392f86f77444754deb29",
+                            "quantity": 1
+                        }
+                    ]
+                }
+            }
+        },
+        "module-shooting-range": {
+            "id": "module-shooting-range",
+            "name": "Shooting range",
+            "levels": {
+                "1": {
+                    "level": 1,
+                    "requirements": [
+                        {
+                            "item_id": "590c31c586f774245e3141b2",
+                            "quantity": 4
+                        },
+                        {
+                            "item_id": "57347c77245977448d35f6e2",
+                            "quantity": 5
+                        },
+                        {
+                            "item_id": "57347c5b245977448d35f6e1",
+                            "quantity": 5
+                        },
+                        {
+                            "item_id": "57347c1124597737fb1379e3",
+                            "quantity": 3
+                        },
+                        {
+                            "item_id": "59e35ef086f7741777737012",
+                            "quantity": 2
+                        },
+                        {
+                            "item_id": "61bf7b6302b3924be92fa8c3",
+                            "quantity": 2
+                        }
+                    ]
+                }
+            }
+        },
+        "module-solar-power": {
+            "id": "module-solar-power",
+            "name": "Solar power",
+            "levels": {
+                "1": {
+                    "level": 1,
+                    "requirements": [
+                        {
+                            "item_id": "5d0375ff86f774186372f685",
+                            "quantity": 10
+                        },
+                        {
+                            "item_id": "5d03775b86f774203e7e0c4b",
+                            "quantity": 4
+                        },
+                        {
+                            "item_id": "5d0378d486f77420421a5ff4",
+                            "quantity": 10
+                        },
+                        {
+                            "item_id": "569668774bdc2da2298b4568",
+                            "quantity": 75000
+                        },
+                        {
+                            "item_id": "5d1b304286f774253763a528",
+                            "quantity": 3
+                        }
+                    ]
+                }
+            }
+        },
+        "module-stash": {
+            "id": "module-stash",
+            "name": "Stash",
+            "levels": {
+                "1": {
+                    "level": 1,
+                    "requirements": []
+                },
+                "2": {
+                    "level": 2,
+                    "requirements": [
+                        {
+                            "item_id": "5d1b317c86f7742523398392",
+                            "quantity": 1
+                        },
+                        {
+                            "item_id": "59e35ef086f7741777737012",
+                            "quantity": 10
+                        },
+                        {
+                            "item_id": "590c5bbd86f774785762df04",
+                            "quantity": 4
+                        },
+                        {
+                            "item_id": "590c31c586f774245e3141b2",
+                            "quantity": 5
+                        },
+                        {
+                            "item_id": "5449016a4bdc2d6f028b456f",
+                            "quantity": 2500000
+                        }
+                    ]
+                },
+                "3": {
+                    "level": 3,
+                    "requirements": [
+                        {
+                            "item_id": "59e35de086f7741778269d84",
+                            "quantity": 2
+                        },
+                        {
+                            "item_id": "59e35ef086f7741777737012",
+                            "quantity": 15
+                        },
+                        {
+                            "item_id": "590c31c586f774245e3141b2",
+                            "quantity": 7
+                        },
+                        {
+                            "item_id": "5449016a4bdc2d6f028b456f",
+                            "quantity": 8500000
+                        }
+                    ]
+                },
+                "4": {
+                    "level": 4,
+                    "requirements": [
+                        {
+                            "item_id": "569668774bdc2da2298b4568",
+                            "quantity": 200000
+                        },
+                        {
+                            "item_id": "57347c77245977448d35f6e2",
+                            "quantity": 10
+                        },
+                        {
+                            "item_id": "57347c5b245977448d35f6e1",
+                            "quantity": 10
+                        },
+                        {
+                            "item_id": "590c35a486f774273531c822",
+                            "quantity": 5
+                        },
+                        {
+                            "item_id": "60391afc25aff57af81f7085",
+                            "quantity": 2
+                        }
+                    ]
+                }
+            }
+        },
+        "module-vents": {
+            "id": "module-vents",
+            "name": "Vents",
+            "levels": {
+                "1": {
+                    "level": 1,
+                    "requirements": [
+                        {
+                            "item_id": "5449016a4bdc2d6f028b456f",
+                            "quantity": 25000
+                        }
+                    ]
+                },
+                "2": {
+                    "level": 2,
+                    "requirements": [
+                        {
+                            "item_id": "5d1b2fa286f77425227d1674",
+                            "quantity": 1
+                        },
+                        {
+                            "item_id": "5733279d245977289b77ec24",
+                            "quantity": 1
+                        },
+                        {
+                            "item_id": "5734779624597737e04bf329",
+                            "quantity": 3
+                        },
+                        {
+                            "item_id": "61bf7b6302b3924be92fa8c3",
+                            "quantity": 2
+                        }
+                    ]
+                },
+                "3": {
+                    "level": 3,
+                    "requirements": [
+                        {
+                            "item_id": "5d1b2fa286f77425227d1674",
+                            "quantity": 4
+                        },
+                        {
+                            "item_id": "5733279d245977289b77ec24",
+                            "quantity": 4
+                        },
+                        {
+                            "item_id": "5c06779c86f77426e00dd782",
+                            "quantity": 14
+                        },
+                        {
+                            "item_id": "590a3b0486f7743954552bdb",
+                            "quantity": 5
+                        },
+                        {
+                            "item_id": "61bf7b6302b3924be92fa8c3",
+                            "quantity": 5
+                        }
+                    ]
+                }
+            }
+        },
+        "module-water-collector": {
+            "id": "module-water-collector",
+            "name": "Water collector",
+            "levels": {
+                "1": {
+                    "level": 1,
+                    "requirements": [
+                        {
+                            "item_id": "59e35cbb86f7741778269d83",
+                            "quantity": 4
+                        },
+                        {
+                            "item_id": "57347c5b245977448d35f6e1",
+                            "quantity": 5
+                        },
+                        {
+                            "item_id": "57347c77245977448d35f6e2",
+                            "quantity": 5
+                        },
+                        {
+                            "item_id": "57347c1124597737fb1379e3",
+                            "quantity": 3
+                        }
+                    ]
+                },
+                "2": {
+                    "level": 2,
+                    "requirements": [
+                        {
+                            "item_id": "59e35cbb86f7741778269d83",
+                            "quantity": 6
+                        },
+                        {
+                            "item_id": "5d1b2fa286f77425227d1674",
+                            "quantity": 2
+                        },
+                        {
+                            "item_id": "590c2e1186f77425357b6124",
+                            "quantity": 2
+                        },
+                        {
+                            "item_id": "5e2af29386f7746d4159f077",
+                            "quantity": 2
+                        }
+                    ]
+                },
+                "3": {
+                    "level": 3,
+                    "requirements": [
+                        {
+                            "item_id": "5af04b6486f774195a3ebb49",
+                            "quantity": 2
+                        },
+                        {
+                            "item_id": "590c35a486f774273531c822",
+                            "quantity": 5
+                        },
+                        {
+                            "item_id": "60391afc25aff57af81f7085",
+                            "quantity": 1
+                        },
+                        {
+                            "item_id": "5449016a4bdc2d6f028b456f",
+                            "quantity": 20000
+                        }
+                    ]
+                }
+            }
+        },
+        "module-workbench": {
+            "id": "module-workbench",
+            "name": "Workbench",
+            "levels": {
+                "1": {
+                    "level": 1,
+                    "requirements": [
+                        {
+                            "item_id": "57347c77245977448d35f6e2",
+                            "quantity": 2
+                        },
+                        {
+                            "item_id": "57347c5b245977448d35f6e1",
+                            "quantity": 2
+                        },
+                        {
+                            "item_id": "544fb5454bdc2df8738b456a",
+                            "quantity": 1
+                        }
+                    ]
+                },
+                "2": {
+                    "level": 2,
+                    "requirements": [
+                        {
+                            "item_id": "590c2e1186f77425357b6124",
+                            "quantity": 3
+                        },
+                        {
+                            "item_id": "59e35de086f7741778269d84",
+                            "quantity": 2
+                        },
+                        {
+                            "item_id": "57347c5b245977448d35f6e1",
+                            "quantity": 6
+                        },
+                        {
+                            "item_id": "5d1c819a86f774771b0acd6c",
+                            "quantity": 3
+                        },
+                        {
+                            "item_id": "62a0a0bb621468534a797ad5",
+                            "quantity": 1
+                        }
+                    ]
+                },
+                "3": {
+                    "level": 3,
+                    "requirements": [
+                        {
+                            "item_id": "5af04b6486f774195a3ebb49",
+                            "quantity": 2
+                        },
+                        {
+                            "item_id": "5bc9b355d4351e6d1509862a",
+                            "quantity": 1
+                        },
+                        {
+                            "item_id": "5449016a4bdc2d6f028b456f",
+                            "quantity": 395000
+                        },
+                        {
+                            "item_id": "60391a8b3364dc22b04d0ce5",
+                            "quantity": 2
+                        }
+                    ]
+                }
+            }
+        },
+        "module-christmas-tree": {
+            "id": "module-christmas-tree",
+            "name": "Christmas Tree",
+            "levels": {
+                "1": {
+                    "level": 1,
+                    "requirements": [
+                        {
+                            "item_id": "5df8a6a186f77412640e2e80",
+                            "quantity": 1
+                        },
+                        {
+                            "item_id": "5df8a72c86f77412640e2e83",
+                            "quantity": 1
+                        },
+                        {
+                            "item_id": "5df8a77486f77412672a1e3f",
+                            "quantity": 1
+                        },
+                        {
+                            "item_id": "5449016a4bdc2d6f028b456f",
+                            "quantity": 10000
+                        }
+                    ]
+                }
+            }
+        }
+    }
+};
